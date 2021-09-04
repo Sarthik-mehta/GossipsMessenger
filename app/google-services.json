@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "69577694909",
+    "project_id": "gossips-ba009",
+    "storage_bucket": "gossips-ba009.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69577694909:android:6b1cd4a897d93c1683a1d4",
+        "android_client_info": {
+          "package_name": "com.example.gosipgrammessengerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69577694909-p9cqa4rlqdj63sq4bsm18gbo454e4ess.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDacoyjnuRTCgcWi_ATo8RQOXcNJfUcMvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69577694909-p9cqa4rlqdj63sq4bsm18gbo454e4ess.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

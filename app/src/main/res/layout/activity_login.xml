@@ -68,7 +68,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="128dp"
-        android:fontFamily="@font/damion"
+        android:fontFamily="@font/aguafina_script"
         android:text="Gossips"
         android:textColor="@color/white"
         android:textColorHighlight="@color/black"

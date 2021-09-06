@@ -2,6 +2,8 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/aguafina_script</item>
+        <item>@font/alex_brush</item>
         <item>@font/damion</item>
+        <item>@font/roboto_slab_bold</item>
     </array>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.gossipsmessengerapp
+package com.MessagingApp.gossipsmessengerapp
 
 import org.junit.Test
 

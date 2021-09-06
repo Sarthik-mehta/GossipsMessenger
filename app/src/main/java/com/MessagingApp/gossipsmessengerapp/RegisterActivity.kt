@@ -1,21 +1,17 @@
-package com.example.gossipsmessengerapp
+package com.MessagingApp.gossipsmessengerapp
 
 import android.app.Activity
 import android.content.Intent
-import android.graphics.drawable.BitmapDrawable
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Parcelable
 import android.provider.MediaStore
 import android.util.Log
 import android.widget.Toast
-import com.example.models.User
+import com.MessagingApp.models.User
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.ktx.Firebase
 import com.google.firebase.storage.FirebaseStorage
-import kotlinx.android.parcel.Parcelize
 import kotlinx.android.synthetic.main.activity_register.*
 import java.util.*
 
@@ -65,14 +61,25 @@ class RegisterActivity : AppCompatActivity() {
 
 
     private fun performRegister() {
+        val username= username_edittext_register.text.toString()
         val email = email_edittext_register.text.toString()
         val password = password_edittext_register.text.toString()
         Log.d("RegisterActivity", "Email is: $email")
         Log.d("RegisterActivity", "Password is: $password")
 
-        if(email.isEmpty() || password.isEmpty())
+        if(username.isEmpty())
         {
-            Toast.makeText(this,"Please fill all the fields properly",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"Please fill your username.",Toast.LENGTH_SHORT).show()
+            return
+        }
+        if(email.isEmpty())
+        {
+            Toast.makeText(this,"Please fill your e-mail.",Toast.LENGTH_SHORT).show()
+            return
+        }
+        if(password.isEmpty())
+        {
+            Toast.makeText(this,"Please fill your password.",Toast.LENGTH_SHORT).show()
             return
         }
 

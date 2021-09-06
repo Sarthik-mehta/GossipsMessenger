@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/darkTheme"
-    >
+    android:background="@color/white">
 
     <EditText
         android:id="@+id/email_edittext_login"
@@ -44,7 +43,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:text="Login"
-        app:backgroundTint="@color/black"
+        app:backgroundTint="@color/teal_200"
         app:cornerRadius="25dp"
         app:layout_constraintEnd_toEndOf="@+id/password_edittext_login"
         app:layout_constraintStart_toStartOf="@+id/password_edittext_login"
@@ -56,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Don't have an account? Register"
-        android:textColor="@color/white"
+        android:textColor="@color/darkTheme"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/login_button_login"
@@ -68,9 +67,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="128dp"
-        android:fontFamily="@font/aguafina_script"
+        android:fontFamily="@font/roboto_slab_bold"
         android:text="Gossips"
-        android:textColor="@color/white"
+        android:textColor="@color/teal_200"
         android:textColorHighlight="@color/black"
         android:textSize="60sp"
         android:textStyle="bold"

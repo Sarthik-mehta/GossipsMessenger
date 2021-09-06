@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gossipsmessengerapp" >
+    package="com.MessagingApp.gossipsmessengerapp" >
 
     <application
         android:allowBackup="true"
@@ -10,25 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GosipGramMessengerApp" >
         <activity
-            android:name=".ChatLogActivity"
+            android:name="com.MessagingApp.gossipsmessengerapp.ChatLogActivity"
             android:exported="true"
-            android:parentActivityName="com.example.gossipsmessengerapp.LatestMessagesActivity">
+            android:parentActivityName="com.MessagingApp.gossipsmessengerapp.LatestMessagesActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".LatestMessagesActivity" />
+                android:value="com.MessagingApp.gossipsmessengerapp.LatestMessagesActivity" />
 
         </activity>
         <activity
-            android:name=".NewMessageActivity"
+            android:name="com.MessagingApp.gossipsmessengerapp.NewMessageActivity"
             android:exported="true"
-            android:parentActivityName="com.example.gossipsmessengerapp.LatestMessagesActivity">
+            android:parentActivityName="com.MessagingApp.gossipsmessengerapp.LatestMessagesActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".LatestMessagesActivity" >
+                android:value="com.MessagingApp.gossipsmessengerapp.LatestMessagesActivity" >
             </meta-data>
         </activity>
         <activity
-            android:name=".LatestMessagesActivity"
+            android:name="com.MessagingApp.gossipsmessengerapp.LatestMessagesActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,9 +37,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.MessagingApp.gossipsmessengerapp.RegisterActivity"
             android:exported="true" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name="com.MessagingApp.gossipsmessengerapp.LoginActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

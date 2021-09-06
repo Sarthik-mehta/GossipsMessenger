@@ -1,8 +1,7 @@
-package com.example.gossipsmessengerapp
+package com.MessagingApp.gossipsmessengerapp
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
